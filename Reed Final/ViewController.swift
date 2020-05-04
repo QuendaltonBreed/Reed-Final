@@ -15,6 +15,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        // Transitions from Protected Navigation View to Login
+        self.performSegue(withIdentifier: "RegisterSegue", sender: self)
+        
+    }
+    
+    
 
 }
 
