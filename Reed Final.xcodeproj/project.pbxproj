@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3061ADA245F96C200138911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061AD9245F96C200138911 /* AppDelegate.swift */; };
+		D3061ADC245F96C200138911 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061ADB245F96C200138911 /* SceneDelegate.swift */; };
+		D3061ADE245F96C200138911 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061ADD245F96C200138911 /* ViewController.swift */; };
+		D3061AE1245F96C200138911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3061ADF245F96C200138911 /* Main.storyboard */; };
+		D3061AE3245F96C400138911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3061AE2245F96C400138911 /* Assets.xcassets */; };
+		D3061AE6245F96C400138911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3061AE4245F96C400138911 /* LaunchScreen.storyboard */; };
+		D3061AF1245F96C400138911 /* Reed_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061AF0245F96C400138911 /* Reed_FinalTests.swift */; };
+		D3061AFC245F96C400138911 /* Reed_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061AFB245F96C400138911 /* Reed_FinalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3061AED245F96C400138911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3061ACE245F96C200138911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3061AD5245F96C200138911;
+			remoteInfo = "Reed Final";
+		};
+		D3061AF8245F96C400138911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3061ACE245F96C200138911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3061AD5245F96C200138911;
+			remoteInfo = "Reed Final";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3061AD6245F96C200138911 /* Reed Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reed Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3061AD9245F96C200138911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3061ADB245F96C200138911 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3061ADD245F96C200138911 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3061AE0245F96C200138911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3061AE2245F96C400138911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3061AE5245F96C400138911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3061AE7245F96C400138911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3061AEC245F96C400138911 /* Reed FinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reed FinalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3061AF0245F96C400138911 /* Reed_FinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reed_FinalTests.swift; sourceTree = "<group>"; };
+		D3061AF2245F96C400138911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3061AF7245F96C400138911 /* Reed FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reed FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3061AFB245F96C400138911 /* Reed_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reed_FinalUITests.swift; sourceTree = "<group>"; };
+		D3061AFD245F96C400138911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3061AD3245F96C200138911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3061AE9245F96C400138911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3061AF4245F96C400138911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3061ACD245F96C200138911 = {
+			isa = PBXGroup;
+			children = (
+				D3061AD8245F96C200138911 /* Reed Final */,
+				D3061AEF245F96C400138911 /* Reed FinalTests */,
+				D3061AFA245F96C400138911 /* Reed FinalUITests */,
+				D3061AD7245F96C200138911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3061AD7245F96C200138911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3061AD6245F96C200138911 /* Reed Final.app */,
+				D3061AEC245F96C400138911 /* Reed FinalTests.xctest */,
+				D3061AF7245F96C400138911 /* Reed FinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3061AD8245F96C200138911 /* Reed Final */ = {
+			isa = PBXGroup;
+			children = (
+				D3061AD9245F96C200138911 /* AppDelegate.swift */,
+				D3061ADB245F96C200138911 /* SceneDelegate.swift */,
+				D3061ADD245F96C200138911 /* ViewController.swift */,
+				D3061ADF245F96C200138911 /* Main.storyboard */,
+				D3061AE2245F96C400138911 /* Assets.xcassets */,
+				D3061AE4245F96C400138911 /* LaunchScreen.storyboard */,
+				D3061AE7245F96C400138911 /* Info.plist */,
+			);
+			path = "Reed Final";
+			sourceTree = "<group>";
+		};
+		D3061AEF245F96C400138911 /* Reed FinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3061AF0245F96C400138911 /* Reed_FinalTests.swift */,
+				D3061AF2245F96C400138911 /* Info.plist */,
+			);
+			path = "Reed FinalTests";
+			sourceTree = "<group>";
+		};
+		D3061AFA245F96C400138911 /* Reed FinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3061AFB245F96C400138911 /* Reed_FinalUITests.swift */,
+				D3061AFD245F96C400138911 /* Info.plist */,
+			);
+			path = "Reed FinalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3061AD5245F96C200138911 /* Reed Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3061B00245F96C400138911 /* Build configuration list for PBXNativeTarget "Reed Final" */;
+			buildPhases = (
+				D3061AD2245F96C200138911 /* Sources */,
+				D3061AD3245F96C200138911 /* Frameworks */,
+				D3061AD4245F96C200138911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reed Final";
+			productName = "Reed Final";
+			productReference = D3061AD6245F96C200138911 /* Reed Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3061AEB245F96C400138911 /* Reed FinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3061B03245F96C400138911 /* Build configuration list for PBXNativeTarget "Reed FinalTests" */;
+			buildPhases = (
+				D3061AE8245F96C400138911 /* Sources */,
+				D3061AE9245F96C400138911 /* Frameworks */,
+				D3061AEA245F96C400138911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3061AEE245F96C400138911 /* PBXTargetDependency */,
+			);
+			name = "Reed FinalTests";
+			productName = "Reed FinalTests";
+			productReference = D3061AEC245F96C400138911 /* Reed FinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3061AF6245F96C400138911 /* Reed FinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3061B06245F96C400138911 /* Build configuration list for PBXNativeTarget "Reed FinalUITests" */;
+			buildPhases = (
+				D3061AF3245F96C400138911 /* Sources */,
+				D3061AF4245F96C400138911 /* Frameworks */,
+				D3061AF5245F96C400138911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3061AF9245F96C400138911 /* PBXTargetDependency */,
+			);
+			name = "Reed FinalUITests";
+			productName = "Reed FinalUITests";
+			productReference = D3061AF7245F96C400138911 /* Reed FinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3061ACE245F96C200138911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Brendan Reed";
+				TargetAttributes = {
+					D3061AD5245F96C200138911 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					D3061AEB245F96C400138911 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D3061AD5245F96C200138911;
+					};
+					D3061AF6245F96C400138911 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D3061AD5245F96C200138911;
+					};
+				};
+			};
+			buildConfigurationList = D3061AD1245F96C200138911 /* Build configuration list for PBXProject "Reed Final" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3061ACD245F96C200138911;
+			productRefGroup = D3061AD7245F96C200138911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3061AD5245F96C200138911 /* Reed Final */,
+				D3061AEB245F96C400138911 /* Reed FinalTests */,
+				D3061AF6245F96C400138911 /* Reed FinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3061AD4245F96C200138911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3061AE6245F96C400138911 /* LaunchScreen.storyboard in Resources */,
+				D3061AE3245F96C400138911 /* Assets.xcassets in Resources */,
+				D3061AE1245F96C200138911 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3061AEA245F96C400138911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3061AF5245F96C400138911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3061AD2245F96C200138911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3061ADE245F96C200138911 /* ViewController.swift in Sources */,
+				D3061ADA245F96C200138911 /* AppDelegate.swift in Sources */,
+				D3061ADC245F96C200138911 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3061AE8245F96C400138911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3061AF1245F96C400138911 /* Reed_FinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3061AF3245F96C400138911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3061AFC245F96C400138911 /* Reed_FinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3061AEE245F96C400138911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3061AD5245F96C200138911 /* Reed Final */;
+			targetProxy = D3061AED245F96C400138911 /* PBXContainerItemProxy */;
+		};
+		D3061AF9245F96C400138911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3061AD5245F96C200138911 /* Reed Final */;
+			targetProxy = D3061AF8245F96C400138911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3061ADF245F96C200138911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3061AE0245F96C200138911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3061AE4245F96C400138911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3061AE5245F96C400138911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3061AFE245F96C400138911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3061AFF245F96C400138911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3061B01245F96C400138911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reed Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Breed.Reed-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3061B02245F96C400138911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reed Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Breed.Reed-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3061B04245F96C400138911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reed FinalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Breed.Reed-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reed Final.app/Reed Final";
+			};
+			name = Debug;
+		};
+		D3061B05245F96C400138911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reed FinalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Breed.Reed-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reed Final.app/Reed Final";
+			};
+			name = Release;
+		};
+		D3061B07245F96C400138911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reed FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Breed.Reed-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reed Final";
+			};
+			name = Debug;
+		};
+		D3061B08245F96C400138911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reed FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Breed.Reed-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reed Final";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3061AD1245F96C200138911 /* Build configuration list for PBXProject "Reed Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3061AFE245F96C400138911 /* Debug */,
+				D3061AFF245F96C400138911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3061B00245F96C400138911 /* Build configuration list for PBXNativeTarget "Reed Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3061B01245F96C400138911 /* Debug */,
+				D3061B02245F96C400138911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3061B03245F96C400138911 /* Build configuration list for PBXNativeTarget "Reed FinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3061B04245F96C400138911 /* Debug */,
+				D3061B05245F96C400138911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3061B06245F96C400138911 /* Build configuration list for PBXNativeTarget "Reed FinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3061B07245F96C400138911 /* Debug */,
+				D3061B08245F96C400138911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3061ACE245F96C200138911 /* Project object */;
+}
