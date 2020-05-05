@@ -19,7 +19,7 @@ class RegisterViewController: UIViewController {
         // Transitions from Protected Navigation View to Login
         self.performSegue(withIdentifier: "RegisterSegueA", sender: self)
         
-    }   */
+    } */
 
 
     // Each text field is an outlet
@@ -63,6 +63,13 @@ class RegisterViewController: UIViewController {
         
     } 
     
+    
+
+        
+        /* let loginVC = self.storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        
+        self.present(loginVC, animated:true)
+        */
     
     
     
