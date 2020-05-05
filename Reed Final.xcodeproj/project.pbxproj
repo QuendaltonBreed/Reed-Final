@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		D3061ADA245F96C200138911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061AD9245F96C200138911 /* AppDelegate.swift */; };
 		D3061ADC245F96C200138911 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061ADB245F96C200138911 /* SceneDelegate.swift */; };
-		D3061ADE245F96C200138911 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061ADD245F96C200138911 /* ViewController.swift */; };
+		D3061ADE245F96C200138911 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061ADD245F96C200138911 /* RegisterViewController.swift */; };
 		D3061AE1245F96C200138911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3061ADF245F96C200138911 /* Main.storyboard */; };
 		D3061AE3245F96C400138911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3061AE2245F96C400138911 /* Assets.xcassets */; };
 		D3061AE6245F96C400138911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3061AE4245F96C400138911 /* LaunchScreen.storyboard */; };
 		D3061AF1245F96C400138911 /* Reed_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061AF0245F96C400138911 /* Reed_FinalTests.swift */; };
 		D3061AFC245F96C400138911 /* Reed_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3061AFB245F96C400138911 /* Reed_FinalUITests.swift */; };
+		D3AA70D32460BBDD003DC092 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AA70D22460BBDD003DC092 /* LoginViewController.swift */; };
+		D3AA70D52460D410003DC092 /* ProtectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AA70D42460D410003DC092 /* ProtectedViewController.swift */; };
+		D3AA70D72460F364003DC092 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AA70D62460F364003DC092 /* MainPageViewController.swift */; };
+		D3AA70DA2460F8AA003DC092 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AA70D92460F8AA003DC092 /* WebKit.framework */; };
+		D3AA70DC2460FBF9003DC092 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AA70DB2460FBF9003DC092 /* WebViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,7 @@
 		D3061AD6245F96C200138911 /* Reed Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reed Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3061AD9245F96C200138911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3061ADB245F96C200138911 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3061ADD245F96C200138911 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3061ADD245F96C200138911 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D3061AE0245F96C200138911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3061AE2245F96C400138911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3061AE5245F96C400138911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		D3061AF7245F96C400138911 /* Reed FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reed FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3061AFB245F96C400138911 /* Reed_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reed_FinalUITests.swift; sourceTree = "<group>"; };
 		D3061AFD245F96C400138911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AA70D22460BBDD003DC092 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D3AA70D42460D410003DC092 /* ProtectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectedViewController.swift; sourceTree = "<group>"; };
+		D3AA70D62460F364003DC092 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		D3AA70D92460F8AA003DC092 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D3AA70DB2460FBF9003DC092 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3AA70DA2460F8AA003DC092 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +94,7 @@
 				D3061AEF245F96C400138911 /* Reed FinalTests */,
 				D3061AFA245F96C400138911 /* Reed FinalUITests */,
 				D3061AD7245F96C200138911 /* Products */,
+				D3AA70D82460F8AA003DC092 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +113,12 @@
 			children = (
 				D3061AD9245F96C200138911 /* AppDelegate.swift */,
 				D3061ADB245F96C200138911 /* SceneDelegate.swift */,
-				D3061ADD245F96C200138911 /* ViewController.swift */,
+				D3061ADD245F96C200138911 /* RegisterViewController.swift */,
 				D3061ADF245F96C200138911 /* Main.storyboard */,
+				D3AA70DB2460FBF9003DC092 /* WebViewViewController.swift */,
+				D3AA70D62460F364003DC092 /* MainPageViewController.swift */,
+				D3AA70D42460D410003DC092 /* ProtectedViewController.swift */,
+				D3AA70D22460BBDD003DC092 /* LoginViewController.swift */,
 				D3061AE2245F96C400138911 /* Assets.xcassets */,
 				D3061AE4245F96C400138911 /* LaunchScreen.storyboard */,
 				D3061AE7245F96C400138911 /* Info.plist */,
@@ -126,6 +142,14 @@
 				D3061AFD245F96C400138911 /* Info.plist */,
 			);
 			path = "Reed FinalUITests";
+			sourceTree = "<group>";
+		};
+		D3AA70D82460F8AA003DC092 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3AA70D92460F8AA003DC092 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3061ADE245F96C200138911 /* ViewController.swift in Sources */,
+				D3AA70DC2460FBF9003DC092 /* WebViewViewController.swift in Sources */,
+				D3AA70D32460BBDD003DC092 /* LoginViewController.swift in Sources */,
+				D3061ADE245F96C200138911 /* RegisterViewController.swift in Sources */,
 				D3061ADA245F96C200138911 /* AppDelegate.swift in Sources */,
+				D3AA70D52460D410003DC092 /* ProtectedViewController.swift in Sources */,
+				D3AA70D72460F364003DC092 /* MainPageViewController.swift in Sources */,
 				D3061ADC245F96C200138911 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
